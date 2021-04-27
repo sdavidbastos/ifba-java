@@ -1,9 +1,9 @@
+package array;
 
 public class PassArray {
     public static void main(String[] args) {
         /**
-         * Cria um array de interios e
-         * inicializandos os valores dele.
+         * Cria um array de interios e inicializandos os valores dele.
          */
         int[] array = { 1, 2, 3, 4, 5 };
 
@@ -19,8 +19,7 @@ public class PassArray {
         System.out.println("Valores alterados");
 
         /**
-         * O array é passado por referência. 
-         * Isto significa que as alterações feitas
+         * O array é passado por referência. Isto significa que as alterações feitas
          * dentro da função vão afetar o array original.
          * 
          * Diferentemente da passagem por valor que cria uma copia do valor original.
@@ -34,9 +33,7 @@ public class PassArray {
             System.out.printf(" %d \n", value);
         }
         /**
-         * Passagem por valor. 
-         * Passa uma copia do 4º elemento do array.
-         * array[3] = 4
+         * Passagem por valor. Passa uma copia do 4º elemento do array. array[3] = 4
          */
         modifyElement(array[3]);
         System.out.printf("Depois de modifyElement(array[3]): %d\n", array[3]);
